@@ -51,6 +51,10 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
+  --color-primary-strong: var(--primary-strong);
+  --color-hero-foreground: var(--hero-foreground);
+  --font-display: "Archivo Black", system-ui, sans-serif;
+  --font-sans: "Manrope", system-ui, sans-serif;
   --color-sidebar: var(--sidebar);
   --color-sidebar-foreground: var(--sidebar-foreground);
   --color-sidebar-primary: var(--sidebar-primary);
@@ -62,26 +66,29 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --radius: 0.75rem;
+  --background: oklch(0.975 0.004 100);
+  --foreground: oklch(0.17 0.01 120);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
+  --card-foreground: oklch(0.17 0.01 120);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.208 0.042 265.755);
-  --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
+  --popover-foreground: oklch(0.17 0.01 120);
+  --primary: oklch(0.88 0.21 128);
+  --primary-strong: oklch(0.52 0.15 132);
+  --primary-foreground: oklch(0.17 0.02 130);
+  --secondary: oklch(0.17 0.01 120);
+  --secondary-foreground: oklch(0.96 0.01 110);
+  --muted: oklch(0.93 0.005 100);
+  --muted-foreground: oklch(0.48 0.01 110);
+  --accent: oklch(0.93 0.05 128);
+  --accent-foreground: oklch(0.17 0.01 120);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.929 0.013 255.508);
-  --input: oklch(0.929 0.013 255.508);
-  --ring: oklch(0.704 0.04 256.788);
+  --border: oklch(0.89 0.005 100);
+  --input: oklch(0.89 0.005 100);
+  --ring: oklch(0.7 0.18 128);
+  --hero-foreground: oklch(0.97 0.01 110);
+  --shadow-card: 0 20px 40px -20px oklch(0.17 0.01 120 / 0.25);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
